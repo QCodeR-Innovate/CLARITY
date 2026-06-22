@@ -261,7 +261,7 @@ A ring-buffer arrangement decouples real-time input/output from model compute so
 <table>
 <tr>
 <td align="center">
-<img src="assets/raspberry-pi-4.jpg" width="350"><br>
+<img src="assets/raspberry-pi-4.png" width="350"><br>
 <b>Raspberry Pi 4 Model B</b>
 </td>
 
@@ -403,7 +403,7 @@ The best visual proof of the system is the spectrogram comparison between raw au
 
 ### Spectrogram reference
 
-![Raw vs enhanced spectrogram](assets/Screenshot%202026-06-22%20205851.jpg)
+![Raw vs enhanced spectrogram](assets/spectogram_analysis.png)
 
 ---
 
