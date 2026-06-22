@@ -116,6 +116,27 @@ Raspberry Pi 4
 Enhanced speech output
 ```
 
+ReSpeaker Lite
+      │
+      ▼
+ Hardware DSP
+(AEC + AGC + Beamforming)
+      │
+      ▼
+ Raspberry Pi 4
+      │
+      ▼
+ LADSPA Plugin
+      │
+      ▼
+ ONNX Runtime
+      │
+      ▼
+ DeepFilterNet3
+      │
+      ▼
+ Enhanced Speech
+
 ---
 
 ## Hardware and software stack
@@ -129,6 +150,20 @@ Enhanced speech output
 | Audio plugin | LADSPA | Integrates processing into Linux audio flow |
 | Audio backend | ALSA | Provides low-level real-time audio access |
 | Build tooling | C / Rust / Python toolchain | Native plugin and runtime support |
+
+---
+
+## Hardware Platform
+
+CLARITY leverages a two-stage edge-computing architecture consisting of a dedicated audio front-end DSP and an embedded AI inference engine.
+
+| Component | Purpose |
+|------------|----------|
+| Raspberry Pi 4 Model B | Edge AI inference and runtime orchestration |
+| ReSpeaker Lite (XMOS XU316) | Beamforming, AEC, AGC, and noise suppression |
+| DeepFilterNet3 | Neural speech enhancement |
+| ONNX Runtime | Efficient model inference |
+| LADSPA | Low-latency Linux audio integration |
 
 ---
 
@@ -218,6 +253,42 @@ A ring-buffer arrangement decouples real-time input/output from model compute so
 | Wired earphones | Low-impedance 3.5 mm monitoring | 600 |
 | Power supply | 5V 3A USB-C adapter | 500 |
 | **Total** |  | **~9,960** |
+
+---
+
+### Hardware Overview
+
+<table>
+<tr>
+<td align="center">
+<img src="assets/raspberry-pi-4.jpg" width="350"><br>
+<b>Raspberry Pi 4 Model B</b>
+</td>
+
+<td align="center">
+<img src="assets/respeaker-lite.jpg" width="350"><br>
+<b>ReSpeaker Lite (XMOS XU316)</b>
+</td>
+</tr>
+</table>
+
+For detailed hardware specifications and engineering rationale, see:
+
+📖 **[Hardware Documentation](docs/HARDWARE.md)**
+
+---
+
+## DeepFilterNet
+
+CLARITY builds upon the excellent DeepFilterNet framework developed by the original authors.
+
+Original Repository:
+
+🔗 https://github.com/rikorose/deepfilternet
+
+DeepFilterNet provides the low-complexity full-band speech enhancement architecture that serves as the core neural speech separation engine used in this project.
+
+Please consider starring and citing the original repository if this project proves useful.
 
 ---
 
@@ -422,6 +493,30 @@ This project builds on ideas and tooling from the broader open-source audio and 
 - **Raspberry Pi**
 - **Seeedstudio ReSpeaker Lite**
 
+### DeepFilterNet
+
+Speech enhancement framework:
+
+https://github.com/rikorose/deepfilternet
+
+### Raspberry Pi Foundation
+
+Embedded computing platform:
+
+https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
+
+### Seeed Studio
+
+ReSpeaker Lite microphone array:
+
+https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html
+
+### ONNX Runtime
+
+Cross-platform machine learning inference engine:
+
+https://onnxruntime.ai/
+
 ---
 
 ## Contributing
@@ -479,3 +574,6 @@ CLARITY is a research and educational project and is not certified as a medical 
 The system is intended for experimentation, prototyping, and academic research purposes only.
 
 
+[DeepFilterNet]: https://github.com/rikorose/deepfilternet
+[Raspberry Pi 4]: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
+[ReSpeaker Lite]: https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html
