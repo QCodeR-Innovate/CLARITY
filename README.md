@@ -15,6 +15,18 @@
 ![CLARITY Architecture](assets/design_pipeline.png)
 
 ---
+## Team
+
+CLARITY was developed as part of the EMPOWER Student Design Challenge and Assistive Technologies Initiative.
+
+| Name               | Role                                                   | GitHub                                   |
+| ------------------ | -------------------------------------------------      | ---------------------------------------- |
+| Pushkar Chaturvedy | Project Lead, Systems Design, Edge-AI Integration      | [@USERNAME](https://github.com/QCodeR-Innovate) |
+| Munukutla Vamsi    | Hardware & Embedded Systems                            | [@USERNAME](https://github.com/Thinkcrafty) |
+| Shreerang Joshi    | Research & Validation, DFN Fine Tuning and Optimisation| [@USERNAME](https://github.com/ThePurpleCode) |
+| Dhruv Kumar        | Product Design & Documentation                         | [@USERNAME](https://github.com/dhruvnarayan311-dot) |
+
+---
 
 ## Abstract
 
@@ -572,6 +584,16 @@ https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html
 Cross-platform machine learning inference engine:
 
 https://onnxruntime.ai/
+
+## Authors
+
+* Pushkar Chaturvedy
+* Munukutla Vamsi
+* Shreerang Joshi
+* Dhruv Kumar
+
+For questions, suggestions, or collaboration opportunities, please reach out through GitHub Issues or contact the contributors listed above.
+
 
 ---
 
