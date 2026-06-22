@@ -79,7 +79,7 @@ The CLARITY repository is organized into focused technical documents that cover 
 | [Hardware Platform](docs/HARDWARE_PLATFORM.md) | Hardware architecture, component selection, and engineering rationale |
 | [Product Design](docs/PRODUCT_DESIGN.md) | User-centric design philosophy, beamforming strategy, wearability, and deployment model |
 | [Future Directions](docs/FUTURE_DIRECTIONS.md) | Research extensions, optimization opportunities, and future applications |
-|
+
 
 ---
 
@@ -237,28 +237,52 @@ CLARITY leverages a two-stage edge-computing architecture consisting of a dedica
 
 ## Repository structure
 
+## Repository Structure
+
 ```text
 CLARITY/
-├── hardware/
-│   ├── CAD/
-│   ├── STL/
-│   └── assembly-notes/
-├── software/
-│   ├── ladspa-plugin/
-│   ├── onnx-runtime/
-│   ├── model/
-│   └── scripts/
+│
 ├── assets/
 │   ├── design_pipeline.png
-│   ├── onnx_ladspa_plugin.png
 │   ├── dfn_architecture.png
+│   ├── onnx_ladspa_plugin.png
+│   ├── raspberry-pi-4.png
+│   ├── respeaker-lite.jpg
 │   └── spectrogram_analysis.png
-├── documents/
-│   ├── paper/
-│   ├── slides/
-│   └── reports/
-└── README.md
+│
+├── docs/
+│   ├── FUTURE_DIRECTIONS.md
+│   ├── HARDWARE.md
+│   ├── PRODUCT_DESIGN.md
+│   └── Product_Design_Documentation_Susmission.pdf
+│
+├── hardware/
+│   └── (CAD models, enclosure designs, assembly resources)
+│
+├── software/
+│   └── (source code, deployment scripts, model integration files)
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+└── THIRD_PARTY_LICENSES.md
 ```
+
+### Directory Overview
+
+| Directory / File          | Purpose                                                                                   |
+| ------------------------- | ----------------------------------------------------------------------------------------- |
+| `assets/`                 | Project figures, architecture diagrams, hardware images, and validation results           |
+| `docs/`                   | Technical documentation, product design rationale, hardware notes, and supporting reports |
+| `hardware/`               | CAD models, enclosure designs, PCB resources, and future hardware artifacts               |
+| `software/`               | Source code, deployment scripts, inference pipeline components, and runtime integrations  |
+| `README.md`               | Primary project documentation and replication guide                                       |
+| `LICENSE`                 | MIT License                                                                               |
+| `THIRD_PARTY_LICENSES.md` | Licensing information for external dependencies and referenced projects                   |
+
+```
+```
+
 
 ## How it works
 
