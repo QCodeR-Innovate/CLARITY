@@ -1,9 +1,0 @@
-cff-version: 1.2.0
-title: CLARITY
-message: If you use this project, please cite it.
-authors:
-  - family-names: Chaturvedy
-    given-names: Pushkar
-version: 1.0.0
-date-released: 2026-06-22
-license: MIT
