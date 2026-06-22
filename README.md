@@ -1,4 +1,5 @@
 # CLARITY
+### Low-Latency Edge-AI Speech Enhancement System for Hearing Accessibility
 
 > Low-Latency Edge-AI Speech Enhancement for Hearing Accessibility and Real-Time Audio Interfaces
 
@@ -128,7 +129,7 @@ For a detailed roadmap and research discussion, see:
 
 ### 2) LADSPA / ONNX pipeline and worker-thread routing
 
-![CLARITY threading and audio pipeline](assets/pnnx_ladspa_plugin.png)
+![CLARITY threading and audio pipeline](assets/onnx_ladspa_plugin.png)
 
 ### 3) DeepFilterNet3 architecture under the hood
 
