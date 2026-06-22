@@ -1,7 +1,7 @@
 # Product Design
 
 <p align="center">
-  <img src="../assets/PRODUCT DESIGN.png" width="900">
+  <img src="../assets/design_pipeline.png" width="900">
 </p>
 
 ## Overview
