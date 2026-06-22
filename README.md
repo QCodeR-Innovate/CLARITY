@@ -21,10 +21,10 @@ CLARITY was developed as part of the EMPOWER Student Design Challenge and Assist
 
 | Name               | Role                                                   | GitHub                                   |
 | ------------------ | -------------------------------------------------      | ---------------------------------------- |
-| Pushkar Chaturvedy | Project Lead, Systems Design, Edge-AI Integration      | [@USERNAME](https://github.com/QCodeR-Innovate) |
-| Munukutla Vamsi    | Hardware & Embedded Systems                            | [@USERNAME](https://github.com/Thinkcrafty) |
-| Shreerang Joshi    | Research & Validation, DFN Fine Tuning and Optimisation| [@USERNAME](https://github.com/ThePurpleCode) |
-| Dhruv Kumar        | Product Design & Documentation                         | [@USERNAME](https://github.com/dhruvnarayan311-dot) |
+| Pushkar Chaturvedy | Project Lead, Systems Design, Edge-AI Integration      | [@QCodeR-Innovate](https://github.com/QCodeR-Innovate) |
+| Munukutla Vamsi    | Hardware & Embedded Systems                            | [@ThinkCrafty](https://github.com/Thinkcrafty) |
+| Shreerang Joshi    | Research & Validation, DFN Fine Tuning and Optimisation| [@ThePurpleCode](https://github.com/ThePurpleCode) |
+| Dhruv Kumar        | Product Design & Documentation                         | [@dhruvnarayan311-dot](https://github.com/dhruvnarayan311-dot) |
 
 ---
 
