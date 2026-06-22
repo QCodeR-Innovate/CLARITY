@@ -76,7 +76,7 @@ The CLARITY repository is organized into focused technical documents that cover 
 
 | Document | Description |
 |-----------|-------------|
-| [Hardware Platform](docs/HARDWARE_PLATFORM.md) | Hardware architecture, component selection, and engineering rationale |
+| [Hardware Platform](docs/HARDWARE.md) | Hardware architecture, component selection, and engineering rationale |
 | [Product Design](docs/PRODUCT_DESIGN.md) | User-centric design philosophy, beamforming strategy, wearability, and deployment model |
 | [Future Directions](docs/FUTURE_DIRECTIONS.md) | Research extensions, optimization opportunities, and future applications |
 
