@@ -24,6 +24,27 @@ The system combines a **Seeedstudio ReSpeaker Lite** front-end (with XMOS-based 
 
 ---
 
+## Project Resources
+
+In addition to the technical documentation provided within this repository, supplementary project materials are available below.
+
+### Presentation & Demonstration
+
+The complete project presentation includes:
+
+* System architecture visualizations
+* Engineering design rationale
+* Experimental validation
+* Spectrogram analysis
+* Embedded audio comparisons and demonstrations
+
+📊 **Presentation:** [View Canva Presentation](https://canva.link/tkrq5c3djb3mhbd)
+
+> The presentation contains audio samples and comparative demonstrations that cannot be embedded directly within GitHub documentation.
+
+
+---
+
 ## Why this project exists
 
 CLARITY was designed for environments where speech clarity matters but commercial assistive audio hardware is not affordable or flexible enough. The goal was not just to build a demo — it was to build a system that could be understood, reproduced, modified, and extended from scratch.
@@ -34,6 +55,19 @@ This repository is structured so that the README itself acts as:
 - a build-and-replicate guide,
 - a user manual,
 - and an onboarding document for contributors.
+
+---
+
+## Documentation
+
+The CLARITY repository is organized into focused technical documents that cover different aspects of the system.
+
+| Document | Description |
+|-----------|-------------|
+| [Hardware Platform](docs/HARDWARE_PLATFORM.md) | Hardware architecture, component selection, and engineering rationale |
+| [Product Design](docs/PRODUCT_DESIGN.md) | User-centric design philosophy, beamforming strategy, wearability, and deployment model |
+| [Future Directions](docs/FUTURE_DIRECTIONS.md) | Research extensions, optimization opportunities, and future applications |
+|
 
 ---
 
@@ -62,6 +96,28 @@ This repository is structured so that the README itself acts as:
 - **Edge-friendly speech enhancement** using DeepFilterNet3.
 - **Modular architecture** that can be adapted for assistive devices, conferencing, and wearable audio systems.
 - **Open repository layout** intended for long-term maintenance and reproducibility.
+
+---
+
+## Future Directions
+
+CLARITY was developed as a proof-of-concept edge-AI speech enhancement platform for hearing accessibility. While the current implementation demonstrates the feasibility of low-cost, low-latency speech enhancement, several opportunities exist for extending the research and expanding the product ecosystem.
+
+Potential future directions include:
+
+* Domain-specific model retraining for classroom environments
+* Quantization and model compression for wearable deployment
+* Extended beamforming through larger microphone arrays
+* Real-time speaker tracking and localization
+* Bluetooth Low Energy and wireless hearing-aid integration
+* Multi-speaker separation and conversational awareness
+* Edge-AI communication devices and conferencing systems
+* Assistive technologies beyond hearing accessibility
+
+For a detailed roadmap and research discussion, see:
+
+📖 **[Future Directions](docs/FUTURE_DIRECTIONS.md)**
+
 
 ---
 
@@ -403,7 +459,7 @@ The best visual proof of the system is the spectrogram comparison between raw au
 
 ### Spectrogram reference
 
-![Raw vs enhanced spectrogram](assets/spectogram_analysis.png)
+![Raw vs enhanced spectrogram](assets/spectrogram_analysis.png)
 
 ---
 
