@@ -12,7 +12,7 @@
 
 ---
 
-![CLARITY Architecture](assets/design_pipeline.png)
+![CLARITY Architecture](assets/product_design.png)
 
 ---
 ## Team
