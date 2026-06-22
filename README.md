@@ -1,4 +1,5 @@
 # CLARITY
+### Low-Latency Edge-AI Speech Enhancement System for Hearing Accessibility
 
 > Low-Latency Edge-AI Speech Enhancement for Hearing Accessibility and Real-Time Audio Interfaces
 
