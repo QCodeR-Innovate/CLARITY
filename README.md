@@ -72,7 +72,7 @@ This repository is structured so that the README itself acts as:
 
 ### 2) LADSPA / ONNX pipeline and worker-thread routing
 
-![CLARITY threading and audio pipeline](assets/pnnx_ladspa_plugin.png)
+![CLARITY threading and audio pipeline](assets/onnx_ladspa_plugin.png)
 
 ### 3) DeepFilterNet3 architecture under the hood
 
