@@ -59,7 +59,7 @@ The complete project presentation includes:
 
 ## Why this project exists
 
-CLARITY was designed for environments where speech clarity matters but commercial assistive audio hardware is not affordable or flexible enough. The goal was not just to build a demo — it was to build a system that could be understood, reproduced, modified, and extended from scratch.
+CLARITY was created to solve a real problem: the need for clear speech in places where standard commercial audio hardware isn't an option. Rather than just building a proof-of-concept, we designed a complete system that anyone can easily grasp, reproduce, modify, and expand from scratch.
 
 This repository is structured so that the README itself acts as:
 
