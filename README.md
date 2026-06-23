@@ -32,7 +32,7 @@ CLARITY was developed as part of the EMPOWER Student Design Challenge and Assist
 
 Traditional Frequency Modulation (FM) assistive audio systems can significantly improve speech intelligibility for students with hearing impairments, but they often rely on proprietary protocols and expensive closed hardware. **CLARITY** is an open-source alternative built to make low-latency classroom audio enhancement more accessible.
 
-The system combines a **Seeedstudio ReSpeaker Lite** front-end (with XMOS-based hardware DSP) and a **Raspberry Pi 4 Model B** running a native **DeepFilterNet3** inference pipeline. A custom **LADSPA** plugin wraps **ONNX Runtime** so the model can run in a real-time Linux audio path with asynchronous worker-thread execution and ring-buffer-based audio transfer. The result is a practical prototype for assistive listening, speech separation, conferencing, and other low-power edge audio applications.
+The system combines a **Seeedstudio ReSpeaker Lite** front-end (with XMOS-based hardware DSP) and a **Raspberry Pi 4 Model B** running a native **DeepFilterNet3** inference pipeline. A custom **LADSPA** plugin wraps **ONNX Runtime** so the model can run in a real-time Linux audio path with asynchronous worker-thread execution and ring-buffer-based audio transfer. The result is a practical prototype for assistive listening, speech separation, conferencing and other low-power edge audio applications.
 
 ---
 
