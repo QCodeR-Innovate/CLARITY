@@ -612,7 +612,7 @@ https://onnxruntime.ai/
 ## Authors
 
 * Pushkar Chaturvedy
-* Munukutla Vamsi
+* Munukutla Surya Vamsi Kalyan
 * Shreerang Joshi
 * Dhruv Kumar
 
